@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body id="gradient">
+    <h1>TODO-LIST</h1>
+    <input class="colorLeft" type="color" name="colorLeft" value="#ffdd00" />
+    <input
+      class="colorRight"
+      type="color"
+      name="colorRight"
+      value="#ff0000"
+    /><br />
+    <p></p>
+    <div class="card-body">
+      <h5 id="sub-heading">MY TODO LIST :</h5>
+      <!--<div class="add-items d-flex">
+        <input
+          type="text"
+          class="form-control todo-list-input"
+          placeholder="What do you need to do today?"
+        />
+        <button class="add btn btn-primary font-weight-bold todo-list-add-btn">
+          Add
+        </button>
+      </div> -->
+      <div class="input-group mb-3">
+        <input
+          id="userinput"
+          class="form-control"
+          type="text"
+          placeholder="What do you need to do today?"
+        />
+        <div class="input-group-append">
+          <button id="enter" class="btn btn-dark">Add</button>
+        </div>
+      </div>
+      <div class="list-wrapper">
+        <ul class="list-disp">
+          
+        </ul>
+      </div>
+      
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
